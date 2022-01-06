@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    background: url(https://wallpapercave.com/wp/3jQbonO.jpg);
+}
+nav{
+    display: flex;
+    background: url(https://i.pinimg.com/564x/e6/97/b7/e697b7a2ab70b5d4bd713ef792dc2ee2.jpg);
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+    height: 7vh;
+}
+nav:hover{
+    display: flex;
+    box-shadow: 1px 1px 10px white;
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+}
+nav img{
+    padding-left: 50px;
+}
+nav .dd1{
+    flex: 50%;
+    padding: 5px;
+    padding-left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav .dd1 li{
+    display: inline;
+}
+nav .dd1 ul li a{
+    color: gold;
+    background: none;
+    border: none;
+    text-decoration: none;
+    margin: 10px;
+    transition-duration: 0.2s;
+}nav .dd1 ul li a:hover{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px;
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+}
+nav .dd2{
+    flex: 50%;
+    padding: 5px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav .dd2 li{
+    display: inline;
+}
+nav .dd2 ul li a{
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    background: orange;
+    border-radius: 10px;
+    padding: 10px;
+    transition-duration: 0.2s;
+    transition-delay: 0s;
+}
+nav .dd2 ul li a:hover{
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    background: white;
+    border-radius: 10px;
+    text-shadow: 0 0 1px;
+    transition-duration: 0.2s;
+    transition-delay: 0s;
+
+}
+.stop{
+    display: flex;
+    align-items: center;
+    height: 93vh
+}
+.stop .done .up img{
+    width: 30px;
+    height: 30px;
+    padding-left: 15%;
+}
+label {
+    font-weight:bold;
+    font-size: 12px;
+    font-family: monospace; 
+    margin-top: 5px;
+}
+img{
+    width:15px;
+}
+.radio{
+    display: flex;
+}
+.pcm{
+    display: flex;
+    align-items: center;
+}
+#cf{
+    margin-left: 20px;
+}
+p{
+    font-size: 14px;
+    font-family: monospace;
+    font-weight: bold;
+}
+input, select, textarea{
+    width: 100%;
+    border-radius:5px;
+    box-sizing: border-box;
+    margin: 15px 0;
+    background: gray;
+    color: black;
+    padding: 4px 4px;
+}
+.done{
+    background: rgb(68, 131, 117);
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0 auto; 
+    border-radius: 5px; 
+    box-shadow: 5px 0px 10px rgb(148, 147, 147); 
+    width:300px;
+}
+a{
+    border: 1px solid;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    background:gray;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.done1{
+    background: blue;
+    width:450px;
+    border:1px solid;
+    border-radius: 10px;
+}
+button{
+    width: 50%; 
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: gold;
+    color: black;
+    font-weight:bold;
+    font-size: 15px;
+    padding: 3px;
+    margin: 0 25%;
+    transition-duration: 0.2s;
+    transition-delay: 0s;
+}
+button:hover{
+    background-color:white;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-delay: 0s;
+}

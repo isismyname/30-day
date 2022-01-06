@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    background: url(https://wallpapercave.com/wp/igxNOHD.jpg);
+}
+nav{
+    display: flex;
+    background: url(https://i.pinimg.com/564x/e6/97/b7/e697b7a2ab70b5d4bd713ef792dc2ee2.jpg);
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+    height: 7vh;
+}
+nav:hover{
+    display: flex;
+    box-shadow: 1px 1px 10px white;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+nav img{
+    padding-left: 50px;
+}
+nav .dd1{
+    flex: 50%;
+    padding: 5px;
+    padding-left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav .dd1 li{
+    display: inline;
+}
+nav .dd1 ul li a{
+    color: gold;
+    text-decoration: none;
+    margin: 10px;
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+}nav .dd1 ul li a:hover{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px;
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+}
+nav .dd2{
+    flex: 50%;
+    padding: 5px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav .dd2 li{
+    display: inline;
+}
+nav .dd2 ul li a{
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    background: orange;
+    border-radius: 10px;
+    padding: 10px;
+    transition-duration: 0.2s;
+    transition-delay: 0s;
+}
+nav .dd2 ul li a:hover{
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    transition-duration: 0.2s;
+    transition-delay: 0s;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 93vh;
+}
+.container .section{
+    display: flex;
+    width: 85%;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+    transition-delay: 0;
+}
+.container .section:hover{
+    display: flex;
+    width: 85%;
+    border-radius: 50px;
+    box-shadow: 0 0 10px white;
+    transition-duration: 0.2s;
+    transition-delay: 0;
+}
+.container .section .bl1 h1{
+    padding-top: 80px;
+}
+.container .section .bl1 table{
+    margin: 0 auto;
+    border-radius: 7px;
+    width: 90%;
+}
+.container .section .bl1 table tr td img{
+    width: 20px;
+    align-items: center;
+}
+.section .bl1{
+    border: 2px solid;
+    border-radius: 50px;
+    flex: 70%;
+    text-align: center;
+    align-items: flex-start;
+    padding: 15px;
+    background: white;
+}
+.section .bl2{
+    color: white;
+    padding-left: 20px;
+}
+.section .bl2 .skill-container{
+    display: flex;
+    width: 700px;
+    margin-top: 30px;
+}
+.skill-container{
+    display: flex;
+}
+.skill-container div{
+    margin: 5px;
+}
+.skill-container img{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+}
+.skill-container p{
+    font-size: 12px;
+}
+.skill-containers div{
+    display: inline;
+}
+.skill-containers a{
+    text-decoration: none;
+}

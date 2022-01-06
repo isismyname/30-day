@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Day 4</title>   
+        <link rel="stylesheet" href="done.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta content='IE=7' http-equiv='X-UA-Compatible'>
+        <script src="day4.js"></script>
+    </head>
+    <body>
+        <nav>
+            <img src="https://raw.githubusercontent.com/DumbwaysDotId/creating-navbar-and-layouting/master/assets/logo.png" alt="Dumbways Logo" srcset="">
+            <div class="dd1">
+                <ul>
+                    <li><a href="day 4.html">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="dd2">
+                <ul>
+                    <li>
+                        <a href="../day 4/hello.html">Report</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="stop">
+            <form class="done">
+                <div class="up">
+                    <h3>
+                        <img src="https://img.icons8.com/wired/64/000000/document-writer.png"/>
+                        Input Your Data
+                    </h3>
+                </div>
+                <div>
+                    <label for="text">
+                        <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-user-interface-kiranshastry-lineal-kiranshastry-1.png"/>
+                        Name
+                    </label>
+                    <input id="text" type="text" placeholder="Name">
+                </div>
+                <div>    
+                    <label for="done">
+                        <img src="https://img.icons8.com/ios/50/000000/email-sign.png"/>
+                        email
+                    </label>
+                    <input id="done" type="email" placeholder="E-mail">
+                </div>
+                <div class="radio">
+                    <label for="cm">
+                        <img src="https://img.icons8.com/external-others-phat-plus/64/000000/external-course-online-courses-outline-others-phat-plus-2.png" alt="">
+                        Course
+                    </label>
+                    <p class="pcm">
+                        <input type="checkbox" value="Male" id="cm" required> Fullstack
+                        <input type="checkbox" value="Female" id="cf" > DevOps
+                    </p>
+                </div>
+                <div>    
+                    <label for="select-option">
+                        <img src="problem-solved.png"/>
+                        subject
+                    </label>
+                    <select id="select-option">
+                        <option value="Privacy">Privacy Police</option>
+                        <option value="Problem">Problem With Our Site</option>
+                        <option value="Done">Done</option>
+                        <option value="Stop">Stop</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="type">
+                        <img src="https://img.icons8.com/ios/50/000000/add-message.png"/>
+                        Your Message
+                    </label>
+                    <textarea  id="type" maxlength="200" cols="30" rows="5" placeholder="Type Here"></textarea>
+                </div>
+                <button type="button" onclick="sayHi()"> Submit </button>
+            </form>
+        </div>
+    </body>
+</html>
