@@ -80,7 +80,8 @@ nav .dd2 ul li a:hover{
 .stop{
     display: flex;
     align-items: center;
-    height: 93vh
+    height: 93vh;
+    color: rgb(206, 201, 201);
 }
 .stop .done .up img{
     width: 30px;
@@ -121,12 +122,11 @@ input, select, textarea{
     padding: 4px 4px;
 }
 .done{
-    background: rgb(68, 131, 117);
     border: 1px solid black;
     padding: 5px;
     margin: 0 auto; 
     border-radius: 5px; 
-    box-shadow: 5px 0px 10px rgb(148, 147, 147); 
+    box-shadow: 0px 0px 10px rgb(148, 147, 147); 
     width:300px;
 }
 a{
@@ -148,7 +148,7 @@ button{
     width: 50%; 
     border-radius: 10px;
     box-sizing: border-box;
-    background: gold;
+    background: orange;
     color: black;
     font-weight:bold;
     font-size: 15px;

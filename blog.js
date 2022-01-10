@@ -63,7 +63,6 @@ function blog1(){
     </div>
   </div>`
 }
-
 function manipulasi() {
     let manipulasidata = document.getElementById('contents')
     
@@ -127,20 +126,20 @@ function getRealTime(time) {
 
 }
 
-function jarakWaktu(){
-  let timepost = new Date('5 Jan 2022 11:25 ');
+function jarakWaktu(time){
+  let timepost = time;
   let timenow = new Date();
 
-  let distance = timenow-timepost;
+  let distance = timenow-timepost;//menghasilkan milisecond biar dapat menampilkan hari, jam dan menit
 
   let milisecond = 1000 //perdetik 1000 ms
   let second = 3600 // perjam 3600 detik
   let hour = 23 // sehari 23 jam
 
   let distanceDay= Math.floor(distance / (milisecond*second*hour));
-  let distanceSeconds = Math.floor(distance / milisecond)
-  let distanceMinute = Math.floor(distance / (1000*60));
-  let distanceHour = Math.floor(distance / (1000*60*60));
+  let distanceSeconds = Math.floor(distance / milisecond);
+  let distanceMinute = Math.floor(distance / (milisecond*60));//milisecond * second
+  let distanceHour = Math.floor(distance / (milisecond*60*60));//milisecond * second * menit
 
 
   // console.log(`${distanceDay} days ago`)
